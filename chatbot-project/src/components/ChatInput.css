@@ -1,0 +1,25 @@
+.js-button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(25, 135, 84);
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.js-input {
+  padding: 12px 15px;
+  border-width: 1px;
+  border-radius: 10px;
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.js-chat-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 20px;
+}

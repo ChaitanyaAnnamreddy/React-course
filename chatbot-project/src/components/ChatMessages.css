@@ -1,0 +1,24 @@
+.js-chat-messages-container {
+  flex-grow: 1;
+  overflow: scroll;
+  margin-top: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.js-chat-user {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  justify-content: end;
+}
+
+.welcome-message {
+  color: rgb(120, 120, 120);
+  text-align: center;
+}
+
+.loading-spinner {
+  height: 40px;
+  margin: -15px;
+}
